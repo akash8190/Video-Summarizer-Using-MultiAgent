@@ -1,1 +1,1 @@
-# Video-Summarizer-Using-MultiAgent
+# Agentic-AI-Application
