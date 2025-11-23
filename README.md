@@ -72,3 +72,14 @@ pip install -r requirements.txt
 ---
 
 ## 🏗 Architecture & Agents
+
+
+## CLI Options:
+
+--input : path to the video/audio file
+
+--output : path to the summary file
+
+--style : paragraph, bulleted, or keypoints
+
+(Optional) --action-items : if you want a follow-up list
