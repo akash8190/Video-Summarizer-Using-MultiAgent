@@ -74,6 +74,30 @@ pip install -r requirements.txt
 ## 🏗 Architecture & Agents
 
 
+
+### Agent Breakdown:
+- **Transcription Agent** – handles audio extraction & speech-to-text  
+- **Segmentation Agent** – chunks the transcript into meaningful parts  
+- **Summarization Agent** – fine-tunes the summary length/style  
+- **Action-Item Agent** (optional) – produces actionable items or questions from content  
+
+---
+
+## 🧰 Quick Start
+
+### Prerequisites
+- Python 3.8 or higher  
+- ffmpeg (for audio/video processing)  
+- Access to speech-recognition model (please set your API keys if required)  
+
+### Installation
+```bash
+git clone https://github.com/akash8190/Video-Summarizer-Using-MultiAgent.git
+cd Video-Summarizer-Using-MultiAgent
+pip install -r requirements.txt
+
+
+
 ## CLI Options:
 
 --input : path to the video/audio file
